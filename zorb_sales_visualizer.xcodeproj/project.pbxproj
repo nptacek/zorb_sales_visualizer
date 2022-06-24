@@ -13,6 +13,7 @@
 		C569EE662865389000DE3FC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C569EE652865389000DE3FC8 /* main.m */; };
 		C569EE6E28659A5900DE3FC8 /* CanvasJS-Multi-Series-Scatter-Point-Chart.html in Resources */ = {isa = PBXBuildFile; fileRef = C569EE6D28659A5900DE3FC8 /* CanvasJS-Multi-Series-Scatter-Point-Chart.html */; };
 		C569EE712865A1D200DE3FC8 /* graphql_query_template in Resources */ = {isa = PBXBuildFile; fileRef = C569EE702865A1D200DE3FC8 /* graphql_query_template */; };
+		C569EE732865A50B00DE3FC8 /* zorb.html in Resources */ = {isa = PBXBuildFile; fileRef = C569EE722865A50B00DE3FC8 /* zorb.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C569EE672865389000DE3FC8 /* zorb_sales_visualizer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = zorb_sales_visualizer.entitlements; sourceTree = "<group>"; };
 		C569EE6D28659A5900DE3FC8 /* CanvasJS-Multi-Series-Scatter-Point-Chart.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "CanvasJS-Multi-Series-Scatter-Point-Chart.html"; sourceTree = "<group>"; };
 		C569EE702865A1D200DE3FC8 /* graphql_query_template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = graphql_query_template; sourceTree = "<group>"; };
+		C569EE722865A50B00DE3FC8 /* zorb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = zorb.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		C569EE6F2865A05700DE3FC8 /* template code */ = {
 			isa = PBXGroup;
 			children = (
+				C569EE722865A50B00DE3FC8 /* zorb.html */,
 				C569EE702865A1D200DE3FC8 /* graphql_query_template */,
 				C569EE6D28659A5900DE3FC8 /* CanvasJS-Multi-Series-Scatter-Point-Chart.html */,
 			);
@@ -138,6 +141,7 @@
 				C569EE712865A1D200DE3FC8 /* graphql_query_template in Resources */,
 				C569EE642865389000DE3FC8 /* MainMenu.xib in Resources */,
 				C569EE6E28659A5900DE3FC8 /* CanvasJS-Multi-Series-Scatter-Point-Chart.html in Resources */,
+				C569EE732865A50B00DE3FC8 /* zorb.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,23 @@
+query ListSales {
+  sales(
+    where: {collectionAddresses: "0xca21d4228cdcc68d4e23807e5e370c07577dd152"}
+    sort: {sortKey: TIME, sortDirection: DESC}
+    pagination: {limit: 500}
+  ) {
+    nodes {
+      sale {
+        price {
+          chainTokenPrice {
+            decimal
+          }
+        }
+        transactionInfo {
+          blockTimestamp
+        }
+      }
+      token {
+        metadata
+      }
+    }
+  }
+}

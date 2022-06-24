@@ -172,3 +172,17 @@ This tutorial only scratches the surface of what’s possible when you combine Z
 You can find the tutorial code over on github if you want to play around with it yourself.
 
 I’d love to see your creations, please let me know what you come up with!
+
+<b>References</b>
+
+Tutorial writeup on Medium: https://nptacek.medium.com/building-with-zora-api-a6d06e2eb6ff
+
+zorb_sales_visualizer source code: https://github.com/nptacek/zorb_sales_visualizer
+
+Zora API Reference: https://docs.zora.co/docs/zora-api/intro
+
+Zora API Playground: https://playground.api.zora.co
+
+canvasJS Documentation: https://canvasjs.com/docs/charts/basics-of-creating-html5-chart/
+
+canvasJS scatter point chart demo: https://canvasjs.com/javascript-charts/multi-series-scatter-point-chart/

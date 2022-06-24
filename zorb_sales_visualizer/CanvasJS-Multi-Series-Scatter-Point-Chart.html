@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>  
+<script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+  	backgroundColor: "black",
+	animationEnabled: true,
+  	title:{
+		text: "Recent Zorb Sales",
+      fontColor: "white",
+      fontFamily:"Inter"
+	},
+  axisX:{
+    labelFontFamily: "Verdana",
+    labelFontColor: "white",
+    labelFormatter: function (e) {
+				return CanvasJS.formatDate( e.value, "MMM DD YYYY");
+			}
+  },
+	axisY:{
+      labelFontFamily: "Verdana",
+      suffix: " Ξ",
+		includeZero: true,
+      labelFontColor: "white"
+	},
+	data: [{
+		type: "scatter",
+      	toolTipContent: "<b>Sales Date:</b> {x}<br><b>Price:</b> {y} ETH<br><b>Token ID:</b> {tokenId}",
+      	xValueType: "dateTime",
+      markerBorderColor: "white",
+      markerBorderThickness: 0.5,	//this makes the zorbs stand out a bit more
+		dataPoints: [
+			{ x: 1655867811000.000000, y: 0.045990, markerColor: "hsl(310, 89%, 48%)", tokenId: 39635}
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 370px; max-width: 920px; margin: 0px auto;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+</body>
+</html>
